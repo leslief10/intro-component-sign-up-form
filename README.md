@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Intro component with sign up form]()
+- Live Site URL: [Intro component with sign up form](https://leslief10.github.io/intro-component-sign-up-form/)
 
 ## My process
 
@@ -53,7 +53,7 @@ I'm still learning and practicing JavaScript, and I feel proud of how this proje
 
 ### Continued development
 
-I tried using an Else If to verify that the email is written correctly and that the input isn't empty, but it wasn't working as expected. I will return to this challenge at some point to try and make it work.
+I tried using an Else If to verify that the email is written correctly and that the input isn't empty, but it wasn't working as expected. I will return to this challenge at some point to try and make it work. I will also make the code I used on the script.js file shorter when I have more experience.
 
 ### Useful resources
 
