@@ -99,11 +99,6 @@ password.addEventListener('click', () => {
 
 // validation functions
 
-const isValidEmail = email => {
-  const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(String(email).toLowerCase());
-}
-
 const validateInputs = () => {
   const firstNameValue = firstName.value.trim();
   const lastNameValue = lastName.value.trim();
@@ -122,7 +117,7 @@ const validateInputs = () => {
     successLastNameInput();
   }
 
-   if (!isValidEmail(emailValue)) {
+  if (!email.value.includes('@') || !email.value.includes('.')) {
     errorEmailInput();
   } else {
     successEmailInput();
