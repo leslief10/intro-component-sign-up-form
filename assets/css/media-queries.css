@@ -1,0 +1,88 @@
+@media only screen and (min-width: 750px) {
+  main {
+    min-height: 100vh;
+    background: var(--primary-color) url('../images/bg-intro-desktop.png') no-repeat top left;
+  }
+
+  section {
+    flex-direction: row;
+    padding: 68px 30px;
+  }
+
+  .main-text-container h1 {
+    text-align: left;
+  }
+
+  .main-text-container p {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-height: 801px) {
+   main {
+    background-size: cover;
+   }
+}
+
+@media only screen and (min-width: 810px) {
+  section {
+    column-gap: 50px;
+  }
+
+  .main-text-container {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 834px) {
+  section {
+    padding: 68px 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  section {
+    padding: 120px 75px;
+    column-gap: 75px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .main-text-container {
+    align-items: flex-start;
+  }
+
+  .main-text-container h1 {
+    margin: 0 0 45px;
+    font-size: 5.1rem;
+    line-height: 5.5rem;
+  }
+
+  aside {
+    width: 540px;
+    height: 60px;
+  }
+
+  .form {
+    width: 540px;
+    padding: 40px;
+  }
+
+  .input, .input-submit {
+    width: 460px;
+  }
+
+  .input {
+    padding-left: 32px;
+  }
+
+  .error-message {
+    bottom: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  section {
+    padding: 120px 165px;
+  }
+}
