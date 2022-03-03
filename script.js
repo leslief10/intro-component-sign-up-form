@@ -102,7 +102,6 @@ password.addEventListener('click', () => {
 const validateInputs = () => {
   const firstNameValue = firstName.value.trim();
   const lastNameValue = lastName.value.trim();
-  const emailValue = email.value.trim();
   const passwordValue = password.value.trim();
 
   if (firstNameValue === '') {
